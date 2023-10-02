@@ -1,0 +1,32 @@
+.app{
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 50px;
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 50%;
+  background-color: #F7FAFC;
+}
+
+.form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 50%;
+  ;
+}
+
+@media (max-width: 910px) {
+  .logo {
+    display: none;
+  }
+}
